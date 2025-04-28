@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulmonology | Advanced Lung Care 2025</title>
+    <style>
+        :root {
+            --pulmo-teal: #00acc1;
+            --pulmo-green: #4db6ac;
+            --pulmo-dark: #006064;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            margin: 0;
+            background: #e0f7fa;
+        }
+        .pulmo-header {
+            background: linear-gradient(to right, var(--pulmo-teal), var(--pulmo-green));
+            color: white;
+            padding: 4rem 5%;
+            text-align: center;
+        }
+        .breath-animation {
+            animation: breathe 4s infinite;
+        }
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        .service-card {
+            border-left: 5px solid var(--pulmo-teal);
+            transition: all 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header class="pulmo-header">
+        <h1>2025 Respiratory Innovations</h1>
+        <div class="breath-animation">
+            <i class="fas fa-lungs" style="font-size: 4rem;"></i>
+        </div>
+    </header>
+    <!-- Content continues -->
+</body>
+</html>
